@@ -840,7 +840,7 @@ body > nav {
     height: fit-content;
   }
   > div#navbar {
-    max-width: 20rem;
+    max-width: 24rem;
   }
   > div#navbar {
     flex-direction: column;
@@ -1706,59 +1706,59 @@ section#bumper {
     }
     > ul,
             > ol {
-      li {
+      > li {
         flex-grow: 1;
       }
-      li {
+      > li {
         border-radius: 0.5rem;
       }
-      li {
+      > li {
         border-width: 1px;
       }
-      li {
+      > li {
         --tw-border-opacity: 1;
         border-color: rgb(156 163 175 / var(--tw-border-opacity));
       }
-      li {
+      > li {
         padding: 1.25rem;
       }
-      li {
+      > li {
         text-align: center;
       }
-      li {
+      > li {
         font-size: 1.25rem;
         line-height: 1.75rem;
       }
-      li {
+      > li {
         font-weight: 800;
       }
-      li {
+      > li {
         letter-spacing: 0.05em;
       }
-      li {
+      > li {
         --tw-text-opacity: 1;
         color: rgb(255 255 255 / var(--tw-text-opacity));
       }
-      li:hover {
+      > li:hover {
         --tw-border-opacity: 1;
         border-color: rgb(255 255 255 / var(--tw-border-opacity));
       }
-      li:hover {
+      > li:hover {
         --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
         --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
         box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
       }
-      li:hover {
+      > li:hover {
         --tw-shadow-color: #99f6e4;
         --tw-shadow: var(--tw-shadow-colored);
       }
       @media (min-width: 980px) {
-        li {
+        > li {
           padding: 2.5rem;
         }
       }
       @media (min-width: 980px) {
-        li {
+        > li {
           font-size: 1.875rem;
           line-height: 2.25rem;
         }
